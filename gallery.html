@@ -1,0 +1,100 @@
+<DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея — Cherry Cat Coffee</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-amber-50/30 text-gray-800 font-sans">
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-amber-100 h-20 flex items-center shadow-sm">
+        <div class="max-w-6xl mx-auto px-6 w-full flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-bold text-amber-900 flex items-center gap-2">
+                <span>☕</span> Cherry Cat Coffee
+            </a>
+            <nav class="hidden md:flex gap-2 items-center">
+                <a href="index.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Головна</a>
+                <a href="about.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Про нас</a>
+                <a href="services.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Меню</a>
+                <a href="gallery.html" class="bg-amber-500 text-white rounded-lg px-4 py-2 font-medium">Галерея</a>
+                <a href="booking.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Бронювання</a>
+                <a href="contacts.html" class="hover:bg-amber-50 text-gray-700 rounded-lg px-4 py-2 font-medium transition">Контакти</a>
+            </nav>
+            <div class="md:hidden">
+                <a href="booking.html" class="bg-amber-500 text-white px-4 py-2 rounded-lg text-sm font-bold">Бронювати</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="max-w-6xl mx-auto px-6 py-4 text-sm text-gray-500">
+        Головна > Галерея
+    </div>
+
+    <section class="py-12 px-6 max-w-6xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-amber-900 mb-4">Фотогалерея</h1>
+            <p class="text-gray-600 max-w-xl mx-auto">Атмосфера нашої кав’ярні, смачні напої та затишні куточки у Лубнах.</p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div class="aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Кав'ярня" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Еспресо" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Капучино" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1570968915860-54d5c301fa9f?auto=format&fit=crop&w=600&q=80" alt="Лате" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=600&q=80" alt="Інтер'єр" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+            <div class="aspect-square overflow-hidden rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80" alt="Коктейль" class="w-full h-full object-cover hover:scale-110 transition duration-500">
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-xl font-bold text-white mb-4">Cherry Cat Coffee</h3>
+                <p class="text-sm text-gray-400">Затишна міська кав’ярня у Лубнах. Найкраща кава, приємна атмосфера та гостинність.</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Контакти</h4>
+                <p class="text-sm text-gray-400 mb-2">проспект Володимирський, 28, Лубни</p>
+                <p class="text-sm text-gray-400 mb-2">+380667787007</p>
+                <p class="text-sm text-gray-400">info@cherry-cat-coffee.ua</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold text-white mb-4">Навігація</h4>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="index.html" class="hover:text-white transition">Головна</a></li>
+                    <li><a href="about.html" class="hover:text-white transition">Про нас</a></li>
+                    <li><a href="services.html" class="hover:text-white transition">Меню</a></li>
+                    <li><a href="booking.html" class="hover:text-white transition">Бронювання</a></li>
+                    <li><a href="contacts.html" class="hover:text-white transition">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-6 mt-8 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+            © 2026 Cherry Cat Coffee. Всі права захищені.
+        </div>
+    </footer>
+<script>
+    document.getElementById('mobile-toggle')?.addEventListener('click', function() {
+      document.getElementById('mobile-menu')?.classList.toggle('hidden');
+    });
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+      });
+    });
+  </script>
+</body>
+</html>
